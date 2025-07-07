@@ -1,0 +1,38 @@
+name: env
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+
+dependencies:
+  # Core language
+  - python=3.10
+
+  # Numerical & scientific
+  - numpy
+  - scipy
+  - pandas
+
+  # I/O & data formats
+  - h5py
+  - tqdm
+
+  # Plotting
+  - matplotlib
+  - seaborn
+
+  # Machine learning / stats
+  - scikit-learn
+
+  # Deep learning (CPU build; change to cudatoolkit if you need GPU)
+  - pytorch
+  - torchvision
+
+  # Use pip for packages not in Conda repos
+  - pip
+
+  # pip installs
+  - pip:
+    - gdown
+    - open_clip_torch
+    - git+https://github.com/openai/CLIP.git@main
