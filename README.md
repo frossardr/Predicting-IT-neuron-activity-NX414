@@ -6,3 +6,7 @@ This mini-project aims to predict neural responses in the inferior temporal (IT)
 
 ---
 The code and `environment.yml` are provided for reproducibility. See the [report](./report.pdf) for details about results and analysis.
+
+---
+#### Contributors :bust_in_silhouette:
+[frossardr](https://github.com/frossardr), [maverest](https://github.com/maverest), [MeriamBouguecha](https://github.com/MeriamBouguecha)
